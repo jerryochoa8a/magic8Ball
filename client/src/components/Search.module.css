@@ -1,0 +1,84 @@
+.desc {
+    /* color: rgb(114, 143, 206); */
+    color: rgb(16, 19, 212);
+    margin-left: 35px;
+    margin-right: 35px;
+} 
+
+.light {
+    font-size: 15px;
+    color: cyan;
+}
+
+.light b{
+    font-size: 18px;
+}
+
+
+form{
+    height: 225px;
+    width: 200px;
+    background-color: rgb(13, 11, 104);
+    margin: auto;
+}
+
+form div{
+    margin: auto;
+}
+form h2 {
+    font-size: 20px;
+}
+
+.move {
+    margin-top: 20px;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000fe6, 0 0 40px #000fe6, 0 0 50px #000fe6, 0 0 60px #000fe6, 0 0 70px #000fe6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #000fe6, 0 0 40px #000fe6, 0 0 50px #000fe6, 0 0 60px #000fe6, 0 0 70px #000fe6, 0 0 80px #000fe6;
+    }
+}
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    background: linear-gradient(30deg, rgb(12, 15, 163), rgb(68, 39, 197)); 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+input {
+    width: 70px;
+    margin-top: 20px;
+}
+
+.QuickSearch {
+    color: rgb(53, 178, 228);
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

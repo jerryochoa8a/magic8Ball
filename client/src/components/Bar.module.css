@@ -1,0 +1,89 @@
+.picture  {
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(2px 3px 17px rgb(4, 137, 247));
+    background: url('../images/PngItem_2301199.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.fade {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    background: linear-gradient(30deg, rgb(12, 15, 163), rgb(68, 39, 197)); 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* .spin {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-size: 380px;
+    background: url(https://wallpaperaccess.com/full/1726818.jpg);
+    animation: spin 3.5s infinite linear;
+}
+@keyframes spin {
+    0% {background-position-x: 0;}
+    100% {background-position-x: 380px;}
+} */
+
+
+    /* .glow {
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 2s ease-in-out infinite alternate;
+        -moz-animation: glow 2s ease-in-out infinite alternate;
+        animation: glow 2s ease-in-out infinite alternate;
+      }
+      
+    @keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000fe6, 0 0 40px #000fe6, 0 0 50px #000fe6, 0 0 60px #000fe6, 0 0 70px #000fe6;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #000fe6, 0 0 40px #000fe6, 0 0 50px #000fe6, 0 0 60px #000fe6, 0 0 70px #000fe6, 0 0 80px #000fe6;
+        }
+    } */

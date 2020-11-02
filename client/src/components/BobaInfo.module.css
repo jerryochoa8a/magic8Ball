@@ -1,0 +1,38 @@
+.box{
+    height: 200px;
+    width: auto;
+    background-color: blue;
+}
+.name{
+    display: inline-block;
+    background-color: red;
+    width: 278px;
+    height: 260px;
+    margin-left: 25px;
+}
+.ImgExtend{
+    display: inline-block;
+    width: 278px;
+    height: 450px;
+    margin-left: 25px;
+}
+
+.form{
+    height: 200px;
+    width: 450px;
+    border-radius: 8%;
+    background-color: rgb(13, 11, 104);
+    margin: auto;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+.gold{
+    color: rgb(248, 232, 0);
+}
+.back{
+    background-color: rgb(13, 11, 104);
+    width: 50px;
+    height: 20px;
+    margin: auto;
+    border-radius: 10%;
+}
